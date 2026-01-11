@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: newBriefService
+
+news.api:
+  api-key: # go to https://newsapi.org/account and add the api key here
+  base-url: https://newsapi.org/v2
+  top-headlines-endpoint: /top-headlines
+  default-country: us
+
+ollama:
+  base-url: http://localhost:11434/api/generate
+  mistral-model: mistral:7b
+
